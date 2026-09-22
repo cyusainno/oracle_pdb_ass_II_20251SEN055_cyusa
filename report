@@ -1,0 +1,12 @@
+Name:cyusa innocente
+ID:20251SEN055
+
+
+Report
+This practical covered Oracle 21c pluggable database (PDB) administration.
+I created a new PDB with a dedicated user, verified it through SHOW PDBS and DBA_USERS, 
+then practiced the full lifecycle by creating and dropping a temporary PDB. 
+I also configured Oracle Enterprise Manager Express on port 5500,
+confirming it was listening via netstat and reachable via a curl request that returned HTTP 200. 
+Together these steps demonstrate core SQL*Plus skills: multitenant database creation, user management, safe PDB removal,
+and verifying Oracle's web-based administration console was correctly set up and running.
